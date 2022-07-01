@@ -753,6 +753,7 @@ color: #FFFFFF;
     margin-bottom: 10px;
     margin-top: 4px;
     cursor: pointer;
+    padding-left: 20px;
 }
 .input-wrap{
     position: relative;
