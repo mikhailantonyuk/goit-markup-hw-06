@@ -759,6 +759,10 @@ color: #FFFFFF;
 .input-modal:focus{
     border-color: #2196F3;
 }
+.input-modal:focus + .input-icon{
+    fill: #2196F3;
+}
+
 .input-wrap{
     position: relative;
 }
