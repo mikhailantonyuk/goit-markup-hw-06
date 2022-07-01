@@ -754,6 +754,15 @@ color: #FFFFFF;
     margin-top: 4px;
     cursor: pointer;
 }
+.input-wrap{
+    position: relative;
+}
+.input-icon{
+    position:absolute ;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
 .modal-btn{
    display: block; 
    margin: 0 auto;

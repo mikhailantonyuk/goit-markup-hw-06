@@ -379,15 +379,20 @@
                     </svg>
                 </button>
                 <p class="modal-tittle">Оставьте свои данные, мы вам перезвоним</p>
-                <form class="modal-form">
-                    <label class="modal-label">
-                        Имя
+                <div class="modal-field">
+                    <label class="modal-label" for="user-name">Имя </label>
+                        <div class="input-wrap">   
                         <input 
-                            type="text" 
-                            class="input-modal" 
-                            name="user-name"
-                            required>
-                        </label>
+                                type="text" 
+                                class="input-modal" 
+                                name="user-name"
+                                id="user-name"
+                                required/>
+                                <svg class="input-icon" width="13" height="13">
+                                    <use href="./image/icons.svg#icon-personmw"></use>
+                                </svg>
+                        </div> 
+                    </div>
                     <label class="modal-label">
                         Телефон
                         <input 
