@@ -806,6 +806,18 @@ color: #757575;
 .modal-text:focus{
     border-color: #2196F3;
 }
+.check-text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.check-text a{
+    color: #2196F3;
+}
 @keyframes fadeOut {
 	0% {
 		transform: scale(1);
