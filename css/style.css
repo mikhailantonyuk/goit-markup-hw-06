@@ -754,6 +754,10 @@ color: #FFFFFF;
     margin-top: 4px;
     cursor: pointer;
     padding-left: 20px;
+    outline: transparent;
+}
+.input-modal:focus{
+    border-color: #2196F3;
 }
 .input-wrap{
     position: relative;
