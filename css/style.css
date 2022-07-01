@@ -818,6 +818,12 @@ color: #757575;
 .check-text a{
     color: #2196F3;
 }
+.check-text::before{
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+}
 @keyframes fadeOut {
 	0% {
 		transform: scale(1);
