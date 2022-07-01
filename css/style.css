@@ -756,6 +756,9 @@ color: #FFFFFF;
     padding-left: 20px;
     outline: transparent;
 }
+.modal-text:focus{
+    border-color: #2196F3;
+}
 .input-modal:focus{
     border-color: #2196F3;
 }
@@ -798,6 +801,7 @@ color: #757575;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     resize: none;
+    outline: transparent;
 }
 @keyframes fadeOut {
 	0% {
