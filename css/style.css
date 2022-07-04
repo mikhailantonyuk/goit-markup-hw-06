@@ -824,7 +824,6 @@ align-items: center;
     content: "";
     width: 16px;
     height: 16px;
-   
     border: solid 1px #212121;
     display: block;
 }
@@ -833,6 +832,7 @@ align-items: center;
     background-image: url(./image/icons.svg#icon-Vector-4);
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 2px;
 }
 
 @keyframes fadeOut {
