@@ -823,6 +823,7 @@ align-items: center;
     margin-right: 9px;
     display: flex;
     align-items: center;
+    border: solid 1px #757575;
 }
 .check-text a{
     color: #2196F3;
