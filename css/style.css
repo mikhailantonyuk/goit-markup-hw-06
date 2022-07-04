@@ -830,6 +830,7 @@ align-items: center;
 }
 .input-check:checked + .check-text::before{
     background-color: #2196F3;
+    background-image: url(/image/icons.svg#icon-icon-check);
 }
 
 @keyframes fadeOut {
