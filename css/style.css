@@ -824,6 +824,9 @@ align-items: center;
     display: flex;
     align-items: center;
 }
+.check-text a{
+    color: #2196F3;
+}
 
 .check-icon{
     fill: transparent;
