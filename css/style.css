@@ -829,7 +829,7 @@ align-items: center;
     display: block;
 }
 .input-check:checked + .check-text::before{
-    background-color: #2196F3;
+    
     background-image: url(./image/icons.svg#icon-icon-check);
     background-repeat: no-repeat;
     background-position: center;
