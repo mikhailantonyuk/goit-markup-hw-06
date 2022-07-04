@@ -828,6 +828,10 @@ align-items: center;
     border: solid 1px #212121;
     display: block;
 }
+.input-check:checked + .check-text::before{
+    background-color: #2196F3;
+}
+
 @keyframes fadeOut {
 	0% {
 		transform: scale(1);
