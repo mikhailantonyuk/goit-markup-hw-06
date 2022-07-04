@@ -830,7 +830,7 @@ align-items: center;
 }
 .input-check:checked + .check-text::before{
     
-    background-image: url(./image/icons.svg#icon-icon-check);
+    background-image: url(./image/icons.svg#icon-Vector-4);
     background-repeat: no-repeat;
     background-position: center;
 }
