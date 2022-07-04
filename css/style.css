@@ -820,20 +820,17 @@ align-items: center;
 .check-text a{
     color: #2196F3;
 }
-.check-text::before{
-    content: "";
-    width: 16px;
-    height: 16px;
-    border: solid 1px #212121;
-    display: block;
+
+.check-icon{
+    fill: transparent;
 }
-.input-check:checked + .check-text::before{
+.input-check:checked + .check-text span{
     background-color: #2196F3;
-    background-image: url(./image/icons.svg#icon-Vector-4);
-    background-repeat: no-repeat;
-    background-position: center;
     border-radius: 2px;
-    border: solid 1px #2196F3;
+    border: none;
+}
+.input-check:checked + .check-text .check-icon{
+    fill: #FFFFFF;
 }
 
 @keyframes fadeOut {
